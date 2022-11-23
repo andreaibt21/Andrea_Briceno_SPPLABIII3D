@@ -1,0 +1,323 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(133, 177, 162);
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav img {
+  width: 280px;
+  margin-left: 60px;
+}
+
+nav ul {
+  width: 80%;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#ul-header {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+li {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  list-style-type: none;
+}
+#ul-header li {
+  flex-direction: column;
+  height: 15px;
+  padding: 10px;
+  margin-right: 70px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: black;
+}
+
+#banner {
+  width: 100%;
+  /* border: 1px solid black; */
+  height: 200px;
+}
+#cabecera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------FORM ----------------------- */
+
+#divForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#form fieldset {
+  width: 50vw;
+}
+
+.form-seccion {
+  margin: 10px 0;
+  border: none;
+}
+
+input,
+select {
+  background-color: rgb(253, 253, 253);
+  border: 0;
+  border-radius: 10px;
+  padding: 5px;
+}
+select {
+  width: 80%;
+  display: block;
+}
+
+.form-seccion input {
+  width: 80%;
+}
+.form-radio input {
+  width: 5%;
+}
+.final-seccion {
+  display: flex;
+}
+.final-seccion div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+small {
+  display: block;
+}
+
+.final-seccion img {
+  width: 20px;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(133, 177, 162);
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer nav ul {
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+footer p {
+  width: 40%;
+  color: white;
+}
+@media screen and (min-width: 900px) {
+  .final-seccion div {
+    width: 100%;
+    padding: 10px;
+  }
+  .final-seccion input {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .final-seccion {
+    flex-direction: column;
+    align-items: center;
+  }
+  .final-seccion div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .final-seccion input {
+    width: 80%;
+  }
+  .final-seccion img {
+    margin: 10px 0;
+  }
+}
+
+/* --------------------- form -------------------- */
+.inputError {
+  border: 1px solid red;
+  box-shadow: 0 0 5px red;
+}
+
+.inputOk {
+  border: 1px solid green;
+  box-shadow: 0 0 5px green;
+}
+small {
+  display: block;
+}
+
+.danger {
+  color: red;
+  font-weight: bold;
+}
+.smallError {
+  font-size: 20px;
+}
+
+/* ---------------------------- TABLA -------------------------- */
+#divTabla {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+td,
+th {
+  padding: 5px;
+}
+thead {
+  background-color: rgb(0, 255, 106);
+}
+table {
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+tbody tr:hover {
+  background-color: rgba(78, 212, 107, 0.534);
+}
+
+#spinner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rotate {
+  animation: rotation 1s infinite linear;
+}
+#spinner {
+  width: 50px;
+}
+
+.notVisible {
+  display: none;
+}
+.Visible {
+  visibility: visible;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#bodyIndex {
+  background-image: url("https://img.freepik.com/fotos-premium/muchos-autos-estacionamiento-abierto-enfoque-selectivo_94863-1089.jpg?w=2000");
+  background-color: #cccccc;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#navIndex {
+  background-color: #adacac6c;
+}
+#navIndex img {
+  height: 100px;
+}
+#navIndex ul {
+  margin: 0;
+}
+#navIndex li {
+  height: 20px;
+  padding: 0;
+}
+
+#spinner-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+/* ------------------  ANUNCIOS ------------------ */
+
+#anuncios-container {
+  width: 70vw;
+  background-color: rgb(102, 101, 101);
+
+  height: 70vh;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-radius: 20px;
+}
+
+.card {
+  background-color: lightgray;
+  border-radius: 20px;
+  padding: 20px;
+  width: 65%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detalles {
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: rgb(102, 101, 101);
+  border-radius: 20px;
+
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(86, 86, 240);
+  padding: 10px;
+  border-radius: 20px;
+  width: 120px;
+  margin-top: 10px;
+}

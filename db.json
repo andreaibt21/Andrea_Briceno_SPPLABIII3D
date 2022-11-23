@@ -1,0 +1,64 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "titulo": "audi",
+      "transaccion": "venta",
+      "descripcion": "muy lindo",
+      "precio": 2457,
+      "puertas": 2,
+      "kilometraje": 100,
+      "potencia": 100
+    },
+    {
+      "id": 2,
+      "titulo": "audi",
+      "transaccion": "alquiler",
+      "descripcion": "nuevo",
+      "precio": 21354,
+      "puertas": 2,
+      "kilometraje": 100,
+      "potencia": 100
+    },
+    {
+      "id": 1669093570063,
+      "titulo": "mini",
+      "transaccion": "alquiler",
+      "descripcion": "lindo",
+      "precio": 12000,
+      "puertas": 2,
+      "kilometraje": 234,
+      "potencia": 231
+    },
+    {
+      "id": 1669146088852,
+      "titulo": "FIAT",
+      "transaccion": "alquiler",
+      "descripcion": "rojo, nuevo",
+      "precio": 2340,
+      "puertas": 4,
+      "kilometraje": 2131,
+      "potencia": 100
+    },
+    {
+      "id": 1669146194267,
+      "titulo": "spark",
+      "transaccion": "alquiler",
+      "descripcion": "usado",
+      "precio": 12000,
+      "puertas": 5,
+      "kilometraje": 321,
+      "potencia": 150
+    },
+    {
+      "id": 1669151806803,
+      "titulo": "smart",
+      "transaccion": "venta",
+      "descripcion": "viejo",
+      "precio": 15000,
+      "puertas": 4,
+      "kilometraje": 1564,
+      "potencia": 154
+    }
+  ]
+}
